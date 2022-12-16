@@ -4,7 +4,9 @@
 
 <HEAD>
 
-    <TITLE>From with love 💚</TITLE>
+    <TITLE>From with love </TITLE>
+
+    <META charset="utf-8" />
 
     <META NAME="Generator" CONTENT="EditPlus">
 
@@ -72,7 +74,7 @@ canvas {
 
 </style>
 <BODY>
-
+    
     <p id="text1"></p>
     <p id="text2"></p>
 
@@ -563,10 +565,19 @@ canvas {
         
     </script>
 
-<audio controls autoplay hidden loop>
+<audio id="myAudio" controls autoplay hidden loop>
     <source src="https://ia804707.us.archive.org/2/items/em-thich-ft-see-tinh-nhac-lofi-chill-vui-ve-nhe-nhang-cho-ngay-moi-nhac-nay-kha-vui-day/Em%20Th%C3%ADch%20ft%20See%20T%C3%ACnh%20%20Nh%E1%BA%A1c%20Lofi%20Chill%20Vui%20V%E1%BA%BB%20Nh%E1%BA%B9%20Nh%C3%A0ng%20Cho%20Ng%C3%A0y%20M%E1%BB%9Bi%20%20Nh%E1%BA%A1c%20N%C3%A0y%20Kh%C3%A1%20Vui%20%C4%90%E1%BA%A5y.mp3"> 
     <!--<source src="Em Thích ft See Tình  Nhạc Lofi Chill Vui Vẻ Nhẹ Nhàng Cho Ngày Mới  Nhạc Này Khá Vui Đấy" type="audio/mpeg"> -->
 </audio>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
 
 </BODY>
 
