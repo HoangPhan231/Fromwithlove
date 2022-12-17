@@ -1,0 +1,11 @@
+#playbtn {
+    border:1px solid black;
+    position:absolute;
+    top:12px;
+    left:11px;
+    font-size: 25px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(240, 23, 23);
+    cursor: pointer;
+}
